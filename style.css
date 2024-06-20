@@ -1,0 +1,357 @@
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+#login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #363232;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user .profile {
+    margin-right: 20px;
+}
+
+.user .profile span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.user .profile a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user .profile a:hover {
+    text-decoration: underline;
+}
+
+.guest {
+    display: flex;
+    align-items: center;
+}
+
+.guest .profile {
+    margin-right: 20px;
+}
+
+.guest .profile a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.guest .profile a:hover {
+    text-decoration: underline;
+}
+
+.guest a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#post-feed {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#post-feed h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post .button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.post .button:hover {
+    background-color: #45a049;
+}
+
+/* style.css */
+
+/* Styles for the post details section */
+#post-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#post-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#post-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#post-details a, #post-details button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#post-details a:hover, #post-details button:hover {
+    background-color: #45a049;
+}
+
+#post-details button {
+    background-color: #f44336;
+}
+
+#post-details button:hover {
+    background-color: #d32f2f;
+}
+
+#edit-post {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#edit-post h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#edit-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-post label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#edit-post input[type="text"],
+#edit-post input[type="password"],
+#edit-post textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#edit-post input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#edit-post input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#create-post {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#create-post h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#create-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+#create-post label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#create-post input[type="text"],
+#create-post input[type="password"],
+#create-post textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#create-post input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#create-post input[type="submit"]:hover {
+    background-color: #45a049;
+}

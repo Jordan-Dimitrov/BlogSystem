@@ -8,7 +8,7 @@ const createTemplate = (onSubmit) => html`
             <label for="title">Title</label>
             <input id="title" type="text" placeholder="Title" name="title">
             <label for="body">Body</label>
-            <input id="body" placeholder="Enter body" name="body"></input>
+            <textarea id="body" placeholder="Enter body" name="body"></textarea>
             <input type="submit" value="Create">
     </form>
 </section>`;
