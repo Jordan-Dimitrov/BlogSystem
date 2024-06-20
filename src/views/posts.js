@@ -23,7 +23,7 @@ const allPostsTemplate = (data) => {
 const postTemplate = (post) => html`
   <div class="post">
     <p class="post-title">${post.title}</p>
-    <a class="button" href="/details/${post.id}">Details</a>
+    <a class="button" href="/details/${post._id}">Details</a>
   </div>
 `;
 

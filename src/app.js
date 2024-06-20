@@ -6,6 +6,8 @@ import { registerPage } from './views/register.js';
 import { loginPage } from './views/login.js';
 import { allPostsPage } from './views/posts.js';
 import { detailsPage } from './views/details.js';
+import { createPage } from './views/create.js';
+import { editPage } from './views/edit.js';
 
 import { logout } from './api/data.js';
 
@@ -17,6 +19,8 @@ page('/login', decorateContext, loginPage);
 page('/register', decorateContext, registerPage);
 page('/posts', decorateContext, allPostsPage)
 page('/details/:id', decorateContext, detailsPage);
+page('/create', decorateContext, createPage);
+page('/edit/:id', decorateContext, editPage);
 
 document.getElementById('logoutBtn').addEventListener('click', async () => {
     await logout();
@@ -32,7 +36,7 @@ function guestUserOnly(ctx, next) {
     const token = sessionStorage.getItem('authToken');
 
     if (token) {
-        return ctx.page.redirect('/all-memes');
+        return ctx.page.redirect('/posts');
     }
 
     next();

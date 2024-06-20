@@ -43,7 +43,7 @@ export async function registerPage(ctx) {
             await register(email, password, username);
 
             ctx.setUserNav();
-            ctx.page.redirect('/all-memes');
+            ctx.page.redirect('/posts');
         } catch (error) {
             alert(error.message)
         }

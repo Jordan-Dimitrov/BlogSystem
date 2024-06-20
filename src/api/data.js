@@ -20,5 +20,9 @@ export async function deletePost(id){
 }
 
 export async function createPost(data){
-    return await api.post(host + `/jsonstore/blog/posts/${id}`, data );
+    return await api.post(host + `/jsonstore/blog/posts/`, data );
+}
+
+export async function editPost(id, data){
+    return await api.put(host +`/jsonstore/blog/posts/${id}`, data)
 }
