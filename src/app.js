@@ -4,6 +4,8 @@ import { render } from '../node_modules/lit-html/lit-html.js';
 import { homePage } from './views/home.js';
 import { registerPage } from './views/register.js';
 import { loginPage } from './views/login.js';
+import { allPostsPage } from './views/posts.js';
+import { detailsPage } from './views/details.js';
 
 import { logout } from './api/data.js';
 
@@ -13,6 +15,8 @@ const nav = document.querySelector('nav');
 page('/', decorateContext, guestUserOnly, homePage);
 page('/login', decorateContext, loginPage);
 page('/register', decorateContext, registerPage);
+page('/posts', decorateContext, allPostsPage)
+page('/details/:id', decorateContext, detailsPage);
 
 document.getElementById('logoutBtn').addEventListener('click', async () => {
     await logout();
