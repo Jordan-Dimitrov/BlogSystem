@@ -2,7 +2,7 @@ import { html } from '../../node_modules/lit-html/lit-html.js';
 import { getPosts } from '../api/data.js';
 
 const allPostsTemplate = (data) => {
-    const postsArray = Object.values(data);
+    const postsArray = Object.values(data).filter(x => x.hasOwnProperty('_id'));
     
     let postsHtml = html``;
     

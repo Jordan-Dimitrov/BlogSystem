@@ -84,8 +84,6 @@ export async function logout() {
     sessionStorage.removeItem('email');
     sessionStorage.removeItem('authToken');
     sessionStorage.removeItem('userId');
-    sessionStorage.removeItem('gender');
-    sessionStorage.removeItem('username');
 
     return result;
 }
