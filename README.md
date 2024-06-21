@@ -1,6 +1,6 @@
 # BlogSystem
 ## Overview
-BlogSystem is a simple blog management system implemented in JavaScript. It provides basic functionalities for creating, editing, and deleting blog posts.
+BlogSystem is a simple blog management SPA in JavaScript. It provides basic functionalities for creating, editing, and deleting blog posts.
 
 ## Getting Started
 ### Prerequisites
